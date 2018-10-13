@@ -338,9 +338,9 @@ work section
 /* ==========================================================================
 about section
 ========================================================================== */
-#about {
-  background: #3B3B3B;
-  color: #ffffff;
+#about {  
+  background-color: #f6f6f6;
+  text-align: center;
 }
 .nav-tabs {
   margin-top: 20px;
