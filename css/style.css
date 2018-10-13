@@ -603,9 +603,7 @@ pricing section
 contact section
 ========================================================================== */
 #contact {
-  background: #3B3B3B url('../images/contact-bg.jpg') no-repeat center center;
-  background-size: cover;
-  color: #ffffff;
+  background-color: #f6f6f6;
 }
 #contact h2 {
   padding-bottom: 20px;
