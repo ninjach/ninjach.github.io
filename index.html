@@ -261,7 +261,21 @@
 			<div class="col-md-12 col-sm-12">
 				<hr>
 			    <h2 class="heading bold">Comments</h2>
-				
+				<div id="gitmentContainer"></div>
+					<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+					<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+					<script>
+					var gitment = new Gitment({
+					  id: 'http://wetlands.top/',
+					  owner: 'ninjach',
+					  repo: 'ninjach.github.io',
+					  oauth: {
+						client_id: '0acd05462321b5ea97e4',
+						client_secret: '05db5a3e46f685892371773ed2087b224452e19f',
+					  },
+					})
+					gitment.render('gitmentContainer')
+					</script>
 				
 			</div>
 		</div>
